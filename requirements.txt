@@ -1,7 +1,6 @@
-Biblioteca
-- Streamlit - montar aplicativo web
-- Pandas - carregar os dados e manipular
-- Plotly - montar os gráficos
+pandas==2.1.2
+plotly
+streamlit==1.28.1
 
 ---------
 
