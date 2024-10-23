@@ -1,25 +1,3 @@
 pandas==2.1.2
 plotly
 streamlit==1.28.1
-
-pandas
-import pandas as pd
-
-df_reviews = pd.read_csv(r'datasets\customer reviews.csv')
-df_top100_books = pd.read_csv(r'datasets\Top-100 Trending Books.csv')
-
-df_reviews
-
-df_reviews.index #indice
-
-df_reviews.columns #colunas na tabela
-
-df_reviews['book name']
-
-df_top100_books[df_top100_books['book_price' < 50] #filtragem tipo excel
-
-df_books['year of publication'].valuecounts()
-
-iloc # permite "quebrar" as informações em pandas
-
-df_reviews.f.values #traz uma lista de listas
